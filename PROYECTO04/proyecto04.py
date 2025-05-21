@@ -10,7 +10,10 @@ while True:
     # imagen => guarda la imagen que esta capturando la webcam
     exito, imagen = webcam.read()
 
+    # Guarda las coordenadas de las manos en la imagen previa 
     coordenadas, imagen_manos = rastreador.findHands(imagen)
+    print(coordenadas)
+    
     cv2.imshow("Proyecto 4 - IA", imagen)
 
     # el metodo waitkey espera alguna tecla
