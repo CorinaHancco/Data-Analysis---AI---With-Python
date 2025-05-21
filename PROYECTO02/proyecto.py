@@ -22,7 +22,7 @@ pyautogui.PAUSE = 3 # Que espere 3 segundos entre cada uno de los comandos a eje
 pyautogui.click(173,238) # click en esta coordenada x=173, y=238 calculada con pyautogui.position()
 
 
-destinatario = "hanccovargascorina@gmail.com"
+destinatario = "gmail@gmail.com"
 asunto = "Análisis acciones de los últimos 6 meses"
 mensaje = f"""
 Hola CORI 😉,
